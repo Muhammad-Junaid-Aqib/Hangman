@@ -89,8 +89,6 @@ const LEFT_LEG = (
 )
 
 
-
-
 const HangmanDrawing = () => {
   return (
       <>
