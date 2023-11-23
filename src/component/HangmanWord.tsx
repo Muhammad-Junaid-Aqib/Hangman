@@ -1,8 +1,8 @@
 import React from 'react'
 
 const HangmanWord = () => {
-  const word = "test"
-  const guessedLetters = ["t", "e", "g"]
+  const word = "Farooq"
+  const guessedLetters = ["a", "", "g"]
   return (
     <>
       <div
@@ -30,7 +30,6 @@ const HangmanWord = () => {
               {letter}
             </span>
           </span>
-
         ))}
       </div>
     </>

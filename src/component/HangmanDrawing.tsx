@@ -90,55 +90,55 @@ const LEFT_LEG = (
 
 
 const HangmanDrawing = () => {
-  return (
-      <>
-          <div style={{ position: "relative" }}>
-              {HEAD}
-              {BODY}
-              {RIGHT_ARM}
-              {LEFT_ARM}
-              {RIGHT_LEG}
-              {LEFT_LEG}
-              <div
-            style={{
-                height: "50px",
-                width: "10px",
-                background: "black",
-                position: "absolute",
-                top: 0,
-                right: 0,
-            }}>
-            
-        </div>
-            <div
-            style={{
-                height: "10px",
-                width: "200px",
-                background: "black",
-                marginLeft:"120px"
-            }}>
-            
-        </div>
-        <div
-            style={{
-                height: "400px",
-                width: "10px",
-                background: "black",
-                marginLeft:"120px"
-            }}>
-            
-        </div>
-        <div
-            style={{
-                height: "10px",
-                width: "250px",
-                background: "black"
-            }}>
-            
-              </div>
-        </div>
-    </>
-  );
+    return (
+        <>
+            <div style={{ position: "relative" }}>
+                {HEAD}
+                {BODY}
+                {RIGHT_ARM}
+                {LEFT_ARM}
+                {RIGHT_LEG}
+                {LEFT_LEG}
+                <div
+                    style={{
+                        height: "50px",
+                        width: "10px",
+                        background: "black",
+                        position: "absolute",
+                        top: 0,
+                        right: 0,
+                    }}>
+
+                </div>
+                <div
+                    style={{
+                        height: "10px",
+                        width: "200px",
+                        background: "black",
+                        marginLeft: "120px"
+                    }}>
+
+                </div>
+                <div
+                    style={{
+                        height: "400px",
+                        width: "10px",
+                        background: "black",
+                        marginLeft: "120px"
+                    }}>
+
+                </div>
+                <div
+                    style={{
+                        height: "10px",
+                        width: "250px",
+                        background: "black"
+                    }}>
+
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default HangmanDrawing;
