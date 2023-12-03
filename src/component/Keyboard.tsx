@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Keyboard.module.css'
 
 const KEYS = [
   "a",
@@ -31,14 +32,18 @@ const KEYS = [
 
 const keyboard = () => {
   return (
-    <div>
-      <h1>keyboard</h1>
-      <h2> keyboard well done junaid aqib</h2>
-      <h2> keyboard jeje </h2>
-      <h2> keyboard  jee </h2>
+    <div style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit, minmax(75px, 1fr))',
+      gap: '.5rem'
+    }}>
+      {KEYS.map((key) => {
+        return (
+          <button className={styles.btn} key={key}>{key}</button>
+        )
+      })}
     </div>
   );
 }
 
 export default keyboard;
-<h1>keyboard</h1>

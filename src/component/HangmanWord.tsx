@@ -3,6 +3,7 @@ import React from 'react'
 const HangmanWord = () => {
   const word = "Farooq"
   const guessedLetters = ["a", "", "g"]
+
   return (
     <>
       <div
@@ -27,7 +28,7 @@ const HangmanWord = () => {
                 visibility: guessedLetters.includes(letter)? "visible": "hidden",
               }}
             >
-              {letter}
+            {letter}
             </span>
           </span>
         ))}
